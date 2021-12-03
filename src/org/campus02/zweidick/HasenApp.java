@@ -15,14 +15,14 @@ public class HasenApp
         hase.hoppeln();
         hase.verteilen();
 
-        System.out.println("WEIHNACHTSHASE");
+        System.out.println("\nWEIHNACHTSHASE");
         //christmas rabbit
         wHase.fressen();
         wHase.schlafen();
         wHase.hoppeln();
         wHase.verteilen();
 
-        System.out.println("OSTERHASE");
+        System.out.println("\nOSTERHASE");
         //easter rabbit
         oHase.fressen();
         oHase.schlafen();

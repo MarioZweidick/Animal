@@ -2,17 +2,22 @@ package org.campus02.zweidick;
 
 public class Weihnachtshase extends Hase
 {
-    String name;
+    private int countGifts;
+
+    public Weihnachtshase(String name, int countGifts)
+    {
+        super(name);
+    }
 
     public Weihnachtshase(String name)
     {
         super(name);
-        this.name = name;
+        this.countGifts = 1;
     }
 
     @Override
     public void verteilen()
     {
-        System.out.println(name + " verteilt die Geschenke unter dem Weihnachtsbaum!");
+        System.out.println( name + " legt die Geschenke unter dem Weihnachtsbaum!");
     }
 }

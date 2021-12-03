@@ -2,7 +2,7 @@ package org.campus02.zweidick;
 
 public class Hase
 {
-    private String name;
+    protected String name;
 
     public Hase(String name)
     {
